@@ -4,7 +4,7 @@ export default function FloatingCat() {
       <img
         src="/src/assets/hypurrr_DCB.png"
         alt="Dead Cat Character"
-        className="w-36 h-auto md:w-48"
+        className="w-32 h-auto md:w-40"
       />
     </div>
   );

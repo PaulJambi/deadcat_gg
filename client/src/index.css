@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;800&display=swap');
-
 :root {
   --background: 0 0% 0%;
   --foreground: 0 0% 100%;
@@ -26,9 +24,9 @@
   --ring: 20 14.3% 4.1%;
   --radius: 0.5rem;
 
-  /* Custom brand colors */
-  --deadcat-red: 0 100% 64%;
-  --deadcat-green: 163 67% 58%;
+  /* Custom brand colors - exactly matching the provided image */
+  --deadcat-red: 0 76% 47%;
+  --deadcat-green: 163 67% 45%;
 }
 
 .dark {
@@ -59,13 +57,14 @@
   }
 
   body {
-    @apply font-sans antialiased bg-black text-foreground overflow-hidden min-h-screen;
-    font-family: 'Archivo', sans-serif;
+    @apply antialiased bg-black text-foreground overflow-hidden min-h-screen;
+    font-family: 'Futura Display', sans-serif;
   }
 
   .logo-text {
-    font-weight: 800;
-    letter-spacing: -0.5px;
+    font-weight: 700;
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: -0.03em;
   }
 
   @keyframes float {
@@ -73,12 +72,12 @@
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-15px);
+      transform: translateY(-8px);
     }
   }
 
   .floating-cat {
-    animation: float 2s ease-in-out infinite;
-    filter: drop-shadow(0 5px 15px rgba(74, 223, 184, 0.3));
+    animation: float 4s ease-in-out infinite;
+    filter: drop-shadow(0 5px 15px rgba(74, 223, 184, 0.2));
   }
 }
