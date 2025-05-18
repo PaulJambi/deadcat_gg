@@ -2,7 +2,7 @@ import catImage from "@assets/hypurrr_DCB.png";
 
 export default function FloatingCat() {
   return (
-    <div className="floating-cat mb-4">
+    <div className="floating-cat mb-1">
       <img
         src={catImage}
         alt="Dead Cat Character"
