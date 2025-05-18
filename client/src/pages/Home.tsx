@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <main className="h-screen flex flex-col items-center justify-center">
-        <div className="relative flex flex-col items-center gap-1">
+        <div className="relative flex flex-col items-center">
           <FloatingCat />
           <DeadCatLogo />
         </div>

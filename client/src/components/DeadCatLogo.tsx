@@ -4,7 +4,7 @@ export default function DeadCatLogo() {
       <img 
         src="/src/assets/deadcatBOUNCE-text.png" 
         alt="deadcatBOUNCE" 
-        className="h-auto w-80 md:w-[26rem]" 
+        className="h-auto w-64 md:w-80" 
       />
     </div>
   );
