@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;800&display=swap');
 
 :root {
   --background: 0 0% 0%;
@@ -78,7 +78,7 @@
   }
 
   .floating-cat {
-    animation: float 2s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
     filter: drop-shadow(0 5px 15px rgba(74, 223, 184, 0.3));
   }
 }
